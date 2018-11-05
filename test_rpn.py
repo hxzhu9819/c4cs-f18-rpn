@@ -11,12 +11,12 @@ class TestBasics(unittest. TestCase):
     def test_mul(self):
         result = rpn.calculate('3 2 *')
         self.assertEqual(6, result)
-    def test_div(self):
-        result = rpn.calculate('4 2 /')
-        self.assertEqual(2, result)
-    def test_exp(self):
-        result = rpn.calculate('3 2 ^')
-        self.assertEqual(9, result)
+#    def test_div(self):
+#        result = rpn.calculate('4 2 /')
+#        self.assertEqual(2, result)
+#    def test_exp(self):
+#        result = rpn.calculate('3 2 ^')
+#        self.assertEqual(9, result)
 
 
 # TODO: Add a test for stubtract
